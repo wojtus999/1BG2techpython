@@ -1,3 +1,4 @@
+
 #Zad 1
 # a = int(input("Podaj liczbe: "))
 # b = int(input("Podaj liczbe: "))

@@ -48,5 +48,21 @@
 # print(suma)\
 
 # Zad 5
-liczba = 0
-a = int(input("Podaj liczbe graczy: "))
+
+# n = int(input())
+# suma = n * (n+1) // 2
+
+# for i in range(n-1):
+#   k = int(input())
+#   suma = suma - k
+
+# print("Nie podałeś: ", suma)
+
+# Zad 6
+
+# n = int(input())
+# a, b = 0, 1
+
+# for i in range(n):
+#   a, b = b, a + b
+#   print(a, end=" ")
