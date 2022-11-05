@@ -10,7 +10,7 @@
 # else:
 #   print("NIE")
 
-# wiek = int(input("A ile ty masz lat? Hehe\n"))
+# # wiek = int(input("A ile ty masz lat? Hehe\n"))
 # if wiek >= 18:
 #   print("TAK")
 # else:

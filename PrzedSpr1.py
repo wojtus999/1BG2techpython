@@ -14,8 +14,8 @@
 # a, b = 0, 1
 # suma = 0
 # for i in range(n):
-#   a, b = b, a+b
-#   suma = suma + b
+#     a, b = b, a+b
+#     suma = suma + b
 # print(suma)
 
 # Zad 3 - Hard - Spradź czy liczba wpisana przez usera jest doskonała
@@ -28,3 +28,7 @@
 
 # Zad 4 - Medium - Oblicz sumę liczb dwucyfrowych parzystych podzielnych przez 7
 # Sprawa oczywista :)
+
+for i in range(10, 100, 2):
+  if i % 7 == 0:
+    print(i, end=" ")
