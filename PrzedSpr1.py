@@ -29,6 +29,9 @@
 # Zad 4 - Medium - Oblicz sumę liczb dwucyfrowych parzystych podzielnych przez 7
 # Sprawa oczywista :)
 
-for i in range(10, 100, 2):
-  if i % 7 == 0:
-    print(i, end=" ")
+# suma = 0
+# for i in range(10, 100, 2):
+#   if i % 7 ==0:
+#     suma =suma + i
+#     print(suma)
+  
