@@ -38,6 +38,35 @@
 #   print("NIE")
 
 # Zad 3
-n = int(input())
-suma = 0
-for i in range(2,n)
+# n = int(input())
+# suma = 0
+# for i in range(1,n):
+#   if n % i == 0:
+#     suma = suma + i
+#   if suma == n:
+#     print("TAK, jest doskonała")
+#   else:
+#     print("NIe,nie jest doskonała")
+
+# Zad 4
+# x = int(input())
+# y = int(input())
+# while x != y:
+#   if x > y : x = x - y
+#   if y > x : y = y - x
+# if x == 1:
+#   print("TAK")
+# else:
+#   print("NIE")
+
+# Zad 5
+m = int(input())
+
+for i in range(10, 20):
+  x, y = i, m
+  while y > 0:
+    x, y = y, x%y
+  if x == 1:
+    print(f"TAK, {i} i {m} są względnie pierwsze")
+  else:
+    print(f"NIE, {i} i {m} nie są względnie pierwsze")
