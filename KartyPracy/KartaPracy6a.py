@@ -60,13 +60,13 @@
 #   print("NIE")
 
 # Zad 5
-m = int(input())
+# m = int(input())
 
-for i in range(10, 20):
-  x, y = i, m
-  while y > 0:
-    x, y = y, x%y
-  if x == 1:
-    print(f"TAK, {i} i {m} są względnie pierwsze")
-  else:
-    print(f"NIE, {i} i {m} nie są względnie pierwsze")
+# for i in range(10, 20):
+#   x, y = i, m
+#   while y > 0:
+#     x, y = y, x%y
+#   if x == 1:
+#     print(f"TAK, {i} i {m} są względnie pierwsze")
+#   else:
+#     print(f"NIE, {i} i {m} nie są względnie pierwsze")
